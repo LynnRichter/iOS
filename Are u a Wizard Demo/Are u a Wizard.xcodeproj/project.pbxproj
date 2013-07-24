@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4DE756B178AB6230039D426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DE756A178AB6230039D426 /* Foundation.framework */; };
+		D4DE756E178AB6230039D426 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DE756D178AB6230039D426 /* main.m */; };
+		D4DE7572178AB6230039D426 /* Are_u_a_Wizard.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4DE7571178AB6230039D426 /* Are_u_a_Wizard.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4DE7565178AB6230039D426 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D4DE7572178AB6230039D426 /* Are_u_a_Wizard.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4DE7567178AB6230039D426 /* Are u a Wizard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Are u a Wizard"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DE756A178AB6230039D426 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4DE756D178AB6230039D426 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4DE7570178AB6230039D426 /* Are u a Wizard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Are u a Wizard-Prefix.pch"; sourceTree = "<group>"; };
+		D4DE7571178AB6230039D426 /* Are_u_a_Wizard.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Are_u_a_Wizard.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4DE7564178AB6230039D426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DE756B178AB6230039D426 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4DE755E178AB6230039D426 = {
+			isa = PBXGroup;
+			children = (
+				D4DE756C178AB6230039D426 /* Are u a Wizard */,
+				D4DE7569178AB6230039D426 /* Frameworks */,
+				D4DE7568178AB6230039D426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4DE7568178AB6230039D426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE7567178AB6230039D426 /* Are u a Wizard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4DE7569178AB6230039D426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE756A178AB6230039D426 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4DE756C178AB6230039D426 /* Are u a Wizard */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE756D178AB6230039D426 /* main.m */,
+				D4DE7571178AB6230039D426 /* Are_u_a_Wizard.1 */,
+				D4DE756F178AB6230039D426 /* Supporting Files */,
+			);
+			path = "Are u a Wizard";
+			sourceTree = "<group>";
+		};
+		D4DE756F178AB6230039D426 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE7570178AB6230039D426 /* Are u a Wizard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4DE7566178AB6230039D426 /* Are u a Wizard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DE7575178AB6230039D426 /* Build configuration list for PBXNativeTarget "Are u a Wizard" */;
+			buildPhases = (
+				D4DE7563178AB6230039D426 /* Sources */,
+				D4DE7564178AB6230039D426 /* Frameworks */,
+				D4DE7565178AB6230039D426 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Are u a Wizard";
+			productName = "Are u a Wizard";
+			productReference = D4DE7567178AB6230039D426 /* Are u a Wizard */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4DE755F178AB6230039D426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lynnrichter;
+			};
+			buildConfigurationList = D4DE7562178AB6230039D426 /* Build configuration list for PBXProject "Are u a Wizard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4DE755E178AB6230039D426;
+			productRefGroup = D4DE7568178AB6230039D426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4DE7566178AB6230039D426 /* Are u a Wizard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4DE7563178AB6230039D426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DE756E178AB6230039D426 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4DE7573178AB6230039D426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4DE7574178AB6230039D426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4DE7576178AB6230039D426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Are u a Wizard/Are u a Wizard-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4DE7577178AB6230039D426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Are u a Wizard/Are u a Wizard-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4DE7562178AB6230039D426 /* Build configuration list for PBXProject "Are u a Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DE7573178AB6230039D426 /* Debug */,
+				D4DE7574178AB6230039D426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DE7575178AB6230039D426 /* Build configuration list for PBXNativeTarget "Are u a Wizard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DE7576178AB6230039D426 /* Debug */,
+				D4DE7577178AB6230039D426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4DE755F178AB6230039D426 /* Project object */;
+}
