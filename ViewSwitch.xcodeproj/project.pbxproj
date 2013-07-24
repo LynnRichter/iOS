@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4E97DDD179F6F5F00F558CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E97DDC179F6F5E00F558CC /* UIKit.framework */; };
+		D4E97DDF179F6F5F00F558CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E97DDE179F6F5F00F558CC /* Foundation.framework */; };
+		D4E97DE1179F6F5F00F558CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E97DE0179F6F5F00F558CC /* CoreGraphics.framework */; };
+		D4E97DE7179F6F5F00F558CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4E97DE5179F6F5F00F558CC /* InfoPlist.strings */; };
+		D4E97DE9179F6F5F00F558CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E97DE8179F6F5F00F558CC /* main.m */; };
+		D4E97DED179F6F5F00F558CC /* Lynn_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E97DEC179F6F5F00F558CC /* Lynn_AppDelegate.m */; };
+		D4E97DEF179F6F5F00F558CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E97DEE179F6F5F00F558CC /* Default.png */; };
+		D4E97DF1179F6F5F00F558CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E97DF0179F6F5F00F558CC /* Default@2x.png */; };
+		D4E97DF3179F6F5F00F558CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4E97DF2179F6F5F00F558CC /* Default-568h@2x.png */; };
+		D4E97DF6179F6F5F00F558CC /* Lynn_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E97DF5179F6F5F00F558CC /* Lynn_ViewController.m */; };
+		D4E97DF9179F6F5F00F558CC /* Lynn_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4E97DF7179F6F5F00F558CC /* Lynn_ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4E97DD9179F6F5E00F558CC /* ViewSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E97DDC179F6F5E00F558CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4E97DDE179F6F5F00F558CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4E97DE0179F6F5F00F558CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4E97DE4179F6F5F00F558CC /* ViewSwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSwitch-Info.plist"; sourceTree = "<group>"; };
+		D4E97DE6179F6F5F00F558CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4E97DE8179F6F5F00F558CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4E97DEA179F6F5F00F558CC /* ViewSwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewSwitch-Prefix.pch"; sourceTree = "<group>"; };
+		D4E97DEB179F6F5F00F558CC /* Lynn_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lynn_AppDelegate.h; sourceTree = "<group>"; };
+		D4E97DEC179F6F5F00F558CC /* Lynn_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lynn_AppDelegate.m; sourceTree = "<group>"; };
+		D4E97DEE179F6F5F00F558CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4E97DF0179F6F5F00F558CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4E97DF2179F6F5F00F558CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4E97DF4179F6F5F00F558CC /* Lynn_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lynn_ViewController.h; sourceTree = "<group>"; };
+		D4E97DF5179F6F5F00F558CC /* Lynn_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lynn_ViewController.m; sourceTree = "<group>"; };
+		D4E97DF8179F6F5F00F558CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Lynn_ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4E97DD6179F6F5E00F558CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E97DDD179F6F5F00F558CC /* UIKit.framework in Frameworks */,
+				D4E97DDF179F6F5F00F558CC /* Foundation.framework in Frameworks */,
+				D4E97DE1179F6F5F00F558CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4E97DD0179F6F5E00F558CC = {
+			isa = PBXGroup;
+			children = (
+				D4E97DE2179F6F5F00F558CC /* ViewSwitch */,
+				D4E97DDB179F6F5E00F558CC /* Frameworks */,
+				D4E97DDA179F6F5E00F558CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4E97DDA179F6F5E00F558CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97DD9179F6F5E00F558CC /* ViewSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E97DDB179F6F5E00F558CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97DDC179F6F5E00F558CC /* UIKit.framework */,
+				D4E97DDE179F6F5F00F558CC /* Foundation.framework */,
+				D4E97DE0179F6F5F00F558CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4E97DE2179F6F5F00F558CC /* ViewSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97DEB179F6F5F00F558CC /* Lynn_AppDelegate.h */,
+				D4E97DEC179F6F5F00F558CC /* Lynn_AppDelegate.m */,
+				D4E97DF4179F6F5F00F558CC /* Lynn_ViewController.h */,
+				D4E97DF5179F6F5F00F558CC /* Lynn_ViewController.m */,
+				D4E97DF7179F6F5F00F558CC /* Lynn_ViewController.xib */,
+				D4E97DE3179F6F5F00F558CC /* Supporting Files */,
+			);
+			path = ViewSwitch;
+			sourceTree = "<group>";
+		};
+		D4E97DE3179F6F5F00F558CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E97DE4179F6F5F00F558CC /* ViewSwitch-Info.plist */,
+				D4E97DE5179F6F5F00F558CC /* InfoPlist.strings */,
+				D4E97DE8179F6F5F00F558CC /* main.m */,
+				D4E97DEA179F6F5F00F558CC /* ViewSwitch-Prefix.pch */,
+				D4E97DEE179F6F5F00F558CC /* Default.png */,
+				D4E97DF0179F6F5F00F558CC /* Default@2x.png */,
+				D4E97DF2179F6F5F00F558CC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4E97DD8179F6F5E00F558CC /* ViewSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E97DFC179F6F5F00F558CC /* Build configuration list for PBXNativeTarget "ViewSwitch" */;
+			buildPhases = (
+				D4E97DD5179F6F5E00F558CC /* Sources */,
+				D4E97DD6179F6F5E00F558CC /* Frameworks */,
+				D4E97DD7179F6F5E00F558CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewSwitch;
+			productName = ViewSwitch;
+			productReference = D4E97DD9179F6F5E00F558CC /* ViewSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4E97DD1179F6F5E00F558CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lynn_;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lynn Richter";
+			};
+			buildConfigurationList = D4E97DD4179F6F5E00F558CC /* Build configuration list for PBXProject "ViewSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4E97DD0179F6F5E00F558CC;
+			productRefGroup = D4E97DDA179F6F5E00F558CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4E97DD8179F6F5E00F558CC /* ViewSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4E97DD7179F6F5E00F558CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E97DE7179F6F5F00F558CC /* InfoPlist.strings in Resources */,
+				D4E97DEF179F6F5F00F558CC /* Default.png in Resources */,
+				D4E97DF1179F6F5F00F558CC /* Default@2x.png in Resources */,
+				D4E97DF3179F6F5F00F558CC /* Default-568h@2x.png in Resources */,
+				D4E97DF9179F6F5F00F558CC /* Lynn_ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4E97DD5179F6F5E00F558CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E97DE9179F6F5F00F558CC /* main.m in Sources */,
+				D4E97DED179F6F5F00F558CC /* Lynn_AppDelegate.m in Sources */,
+				D4E97DF6179F6F5F00F558CC /* Lynn_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4E97DE5179F6F5F00F558CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E97DE6179F6F5F00F558CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4E97DF7179F6F5F00F558CC /* Lynn_ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E97DF8179F6F5F00F558CC /* en */,
+			);
+			name = Lynn_ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4E97DFA179F6F5F00F558CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4E97DFB179F6F5F00F558CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4E97DFD179F6F5F00F558CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitch/ViewSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4E97DFE179F6F5F00F558CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewSwitch/ViewSwitch-Prefix.pch";
+				INFOPLIST_FILE = "ViewSwitch/ViewSwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4E97DD4179F6F5E00F558CC /* Build configuration list for PBXProject "ViewSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E97DFA179F6F5F00F558CC /* Debug */,
+				D4E97DFB179F6F5F00F558CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E97DFC179F6F5F00F558CC /* Build configuration list for PBXNativeTarget "ViewSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E97DFD179F6F5F00F558CC /* Debug */,
+				D4E97DFE179F6F5F00F558CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4E97DD1179F6F5E00F558CC /* Project object */;
+}
