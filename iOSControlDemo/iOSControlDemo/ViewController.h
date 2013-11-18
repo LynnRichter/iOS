@@ -10,4 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,copy)NSString           *testUpdate;
+
+@property(nonatomic,copy)NSString           *testUpdate1;
+
+@property(nonatomic,copy)NSString           *testUpdate2;
+
+@property(nonatomic,copy)NSString           *testUpdate3;
+
+
 @end
