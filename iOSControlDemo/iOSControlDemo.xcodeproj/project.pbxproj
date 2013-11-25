@@ -21,6 +21,7 @@
 		263256E11839B18C00B122DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263256C31839B18C00B122DD /* UIKit.framework */; };
 		263256E91839B18C00B122DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263256E71839B18C00B122DD /* InfoPlist.strings */; };
 		263256EB1839B18C00B122DD /* iOSControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263256EA1839B18C00B122DD /* iOSControlDemoTests.m */; };
+		265AAE361842E5E200F667A5 /* login_imput@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265AAE351842E5E200F667A5 /* login_imput@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		263256E61839B18C00B122DD /* iOSControlDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSControlDemoTests-Info.plist"; sourceTree = "<group>"; };
 		263256E81839B18C00B122DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		263256EA1839B18C00B122DD /* iOSControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSControlDemoTests.m; sourceTree = "<group>"; };
+		265AAE351842E5E200F667A5 /* login_imput@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_imput@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		263256B31839B18C00B122DD = {
 			isa = PBXGroup;
 			children = (
+				265AAE341842E5E200F667A5 /* Images */,
 				263256C51839B18C00B122DD /* iOSControlDemo */,
 				263256E41839B18C00B122DD /* iOSControlDemoTests */,
 				263256BE1839B18C00B122DD /* Frameworks */,
@@ -150,6 +153,15 @@
 				263256E71839B18C00B122DD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		265AAE341842E5E200F667A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				265AAE351842E5E200F667A5 /* login_imput@2x.png */,
+			);
+			name = Images;
+			path = iOSControlDemo/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				263256D81839B18C00B122DD /* Images.xcassets in Resources */,
+				265AAE361842E5E200F667A5 /* login_imput@2x.png in Resources */,
 				263256CA1839B18C00B122DD /* InfoPlist.strings in Resources */,
 				263256D31839B18C00B122DD /* Main.storyboard in Resources */,
 			);
@@ -460,6 +473,7 @@
 				263256F01839B18C00B122DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		263256F11839B18C00B122DD /* Build configuration list for PBXNativeTarget "iOSControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +482,7 @@
 				263256F31839B18C00B122DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
